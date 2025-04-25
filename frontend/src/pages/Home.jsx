@@ -1,9 +1,12 @@
 import React from 'react'
-
+import Header from '../components/Header'
+import specialityMenu from '../components/specialityMenu'
 const Home = () => {
   return (
     <div>
-      Homepage
+      <Header/>
+     <specialityMenu />
+
     </div>
   )
 }
